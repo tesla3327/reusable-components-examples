@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Sprinkled Donut",
+    "description": "A delicious donut covered in a strawberry glaze and sprinkled with joy",
+    "image": "../images/donut.jpg",
+    "price": 4.99,
+    "inCart": true
+  },
+  {
+    "name": "Coffee",
+    "description": "Beautifully roasted beans from somewhere in the world",
+    "image": "../images/coffee.jpg",
+    "price": 12.99,
+    "inCart": true
+  },
+  {
+    "name": "Chocolate",
+    "description": "Fair trade chocolate at a fair price",
+    "image": "../images/chocolate.jpg",
+    "price": 8.99
+  },
+  {
+    "name": "Brownie",
+    "description": "A brownie that will make your head spin — it tastes that good",
+    "image": "../images/brownie.jpg",
+    "price": 3.99
+  },
+  {
+    "name": "Croissant",
+    "description": "No morning is complete without biting into this buttery delicacy",
+    "image": "../images/croissant.jpg",
+    "price": 4.57,
+    "inCart": true
+  }
+]

@@ -1,0 +1,119 @@
+.gradient {
+  background: linear-gradient(-45deg, #1a4731, #3490dc);
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body,
+html {
+  height: 100%;
+}
+
+.modal-container {
+  @apply flex justify-center items-center h-full w-full;
+}
+
+.modal {
+  @apply bg-white rounded-lg shadow-xl py-6 px-8;
+  min-width: 750px;
+}
+
+.btn {
+  @apply transition ease-in-out duration-200 outline-none;
+}
+
+.btn:hover {
+  @apply cursor-pointer;
+}
+
+.btn:focus {
+  @apply shadow-outline outline-none;
+}
+
+.btn:active {
+  @apply outline-none;
+}
+
+.close-btn {
+  @apply bg-gray-200 w-8 h-8 rounded-full;
+}
+
+.close-btn:hover {
+  @apply bg-gray-300;
+}
+
+.close-btn:active {
+  @apply bg-gray-400;
+}
+
+.primary-btn {
+  @apply bg-blue-400 text-white px-4 py-1 rounded;
+}
+
+.primary-btn:hover {
+  @apply bg-blue-500;
+}
+
+.primary-btn:active {
+  @apply bg-blue-600;
+}
+
+.danger-btn {
+  @apply text-red-600 px-3 py-1 rounded text-sm;
+}
+
+.danger-btn:hover {
+  @apply bg-red-200 text-red-700;
+}
+
+.danger-btn:active {
+  @apply bg-red-300;
+}
+
+.danger-btn:focus {
+  @apply shadow-none;
+}
+
+.default-btn {
+  @apply bg-white px-4 py-1 rounded;
+}
+
+.default-btn:hover {
+  @apply bg-gray-300;
+}
+
+.default-btn:active {
+  @apply bg-gray-400;
+}
+
+.input {
+  @apply mt-4 py-2 px-3 border border-gray-500 rounded w-full transition ease-in-out duration-150;
+}
+
+.input:hover {
+  @apply border-black;
+}
+
+.input:focus {
+  @apply outline-none shadow-outline;
+}
+
+.item {
+  @apply px-8 py-4 flex flex-row w-full items-center transition ease-in-out duration-200;
+}
+
+.item.compact {
+  @apply py-2;
+}
+
+.item:hover {
+  @apply bg-gray-200 cursor-pointer;
+}
+
+.item.selected {
+  @apply bg-blue-200;
+}
